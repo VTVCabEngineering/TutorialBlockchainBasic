@@ -11,7 +11,7 @@ class Block {
     }
     
     get key() {
-       return JSON.stringify(this.transactions) + this.index + this.previousHash + this.timestamp
+       return JSON.stringify(this.transactions) + this.index + this.previousHash
     }
 }
 
