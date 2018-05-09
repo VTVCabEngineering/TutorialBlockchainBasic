@@ -20,7 +20,7 @@ console.log(blockchain)
 console.log('[Before] Is this blockchain valid? ' + blockchain.isChainValid())
 
 let secondBlockTransactionModified = new Transaction('hongcuc', 'leanh', 100)
-blockchain.blocks[1].transactions = [secondBlockTransaction]
+blockchain.blocks[1].transactions = [secondBlockTransactionModified]
 
 console.log('[After] Is this blockchain valid? ' + blockchain.isChainValid())
 
